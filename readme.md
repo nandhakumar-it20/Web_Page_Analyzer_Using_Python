@@ -12,7 +12,7 @@ Step 1 : Load the Daisi
 
 <pre>
 import pydaisi as pyd
-web_page_analyzer = pyd.Daisi("oghli/Web Page Analyzer")
+Web_Page_Analyzer_Using_Python = pyd.Daisi("nandhakumars/Web_Page_Analyzer_Using_Python")
 </pre>
 Step 2 : call the `web_page_analyzer` end point, passing web page url to analyze its HTML content
 
