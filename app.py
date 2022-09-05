@@ -112,11 +112,11 @@ def st_ui():
     '''
     Render the User Interface of the application endpoints
     '''
-    st.title("Web Page Analyzer")
+    st.title("Web_Page_Analyzer_Using_Python")
     st.caption("Meta Data Extraction")
-    st.info("Developed by Oghli")
+    st.info("Developed by NANDHAKUMAR S [Daisi Hackathon]")
     st.header("Enter a web page url to analyze its content")
-    url = st.text_input(label='Web Site URL', placeholder='type your url')
+    url = st.text_input(label='Web Site URL', placeholder='Type your url')
     if url:
         analyze_result = analyze_webpage(url)
         if type(analyze_result) is dict:
