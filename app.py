@@ -114,7 +114,7 @@ def st_ui():
     '''
     st.title("Web_Page_Analyzer_Using_Python")
     st.caption("Meta Data Extraction")
-    st.info("Developed by NANDHAKUMAR S [Daisi Hackathon]")
+    st.info("Developed by NANDHAKUMAR S")
     st.header("Enter a web page url to analyze its content")
     url = st.text_input(label='Web Site URL', placeholder='Type your url')
     if url:
